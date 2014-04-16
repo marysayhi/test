@@ -34,7 +34,7 @@ wbr {
 }
 
 /* general */
-body{ background-color: #1E7893; color: white;}
+body{ background-color: #1E7893; font-size: 12px;}
 /*#wrap{ background-color: #E5E5E5;}*/
 #wrap{ background-color: white;}
 .top{ background-color: #1E7893; width: 100%; height: 15px;}
