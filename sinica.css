@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* Reset */
+a, abbr, acronym, address, article, aside, audio,
+b, basefont, bdo, big, blockquote, body,
+canvas, caption, center, cite, code, command,
+datalist, dd, del, details, dfn, dir, div, dl, dt,
+em, embed,
+fieldset, figcaption, figure, font, footer, form, frame, frameset,
+h1, h2, h3, h4, h5, h6, header, hgroup, hr, html,
+i, iframe, img, ins,
+kbd,
+label, legend, li,
+map, mark, menu, meter,
+nav, noframes, noscript,
+object, ol, output,
+p, progress,
+q,
+rp, rt, ruby,
+s, samp, section, small, span, strike, strong, sub, summary, sup,
+table, tbody, td, tfoot, th, thead, time, tr, tt,
+u, ul,
+var, video,
+wbr {
+  padding: 0;
+  border: none;
+  margin: 0;
+  outline: none;
+  vertical-align: baseline;
+  font: inherit;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* general */
+body{ background-color: #1E7893;}
+/*#wrap{ background-color: #E5E5E5;}*/
+#wrap{ background-color: white;}
+.top{ background-color: #1E7893; width: 100%; height: 15px;}
+#header{ background-color: white; height: 130px;}
+.inner{ width: 960px; margin: 0 auto;}
+#header .header-bg{ background: url(../img/img-header.png) no-repeat left top; display: block; width: 1265px; height: 130px; position: relative;}
+.menu{ position: absolute; top: 90px; left: 140px;}
+.nav{ width: 113px; height: 23px; float: left;}
+.btn1{ display: block; background: url(../img/nav1.png) no-repeat; cursor: pointer;}
+.btn1:hover{ background: url(../img/nav1h.png) no-repeat;}
+.btn2{ display: block; background: url(../img/nav2.png) no-repeat; cursor: pointer;}
+.btn2:hover{ background: url(../img/nav2h.png) no-repeat;}
+.btn3{ display: block; background: url(../img/nav3.png) no-repeat; cursor: pointer; margin-right: 28px;}
+.btn3:hover{ background: url(../img/nav3h.png) no-repeat; margin-right: 28px;}
+.btn4{ display: block; background: url(../img/nav4.png) no-repeat; cursor: pointer;}
+.btn4:hover{ background: url(../img/nav4h.png) no-repeat;}
+.btn5{ display: block; background: url(../img/nav5.png) no-repeat; cursor: pointer;}
+.btn5:hover{ background: url(../img/nav5h.png) no-repeat;}
+.btn6{ display: block; background: url(../img/nav6.png) no-repeat; cursor: pointer;}
+.btn6:hover{ background: url(../img/nav6h.png) no-repeat;}
+.footer{ background-color: #1E7893; height: 140px; padding-top: 40px;}
+.footer .inner{ background: url(../img/footer.png) no-repeat; width: 848px; height: 16px;}
+.logo-link{ width:350px; height:50px; position:absolute; left:150px; top:20px;}
+
+/* index */
+#wrap-index{ background-color: #E5E5E5;}
+.content-index{ background: url(../img/content-index.png) no-repeat; display: block; width: 1265px; height: 3186px; margin: 0 auto;}
+
+/* migrate */
+.content-header{ background-color: white; height: 126px;}
+.content-inner{ width: 1123px; margin: 0 auto;}
+.content-bg{ background: url(../img/content-migrate1.png) no-repeat left top; display: block; width: 1123px; height: 126px; position: relative;}
+.content-migrate{ background: url(../img/content-migrate2.png) no-repeat; display: block; width: 1265px; height: 457px; margin: 0 auto;}
+.content-footer{ background-color: #1E7893; width: 100%; height: 210px;}
+.footer-word{ background: url(../img/content-migrate3.png) no-repeat; display: block; width: 1123px; height: 210px;}
+
+/* president */
+.president-header{ background-color: white; height: 127px;}
+.president-bg{ background: url(../img/p-top.png) no-repeat left top; display: block; width: 1123px; height: 127px; position: relative;}
+.content-president{ background: url(../img/p-content-1.png) no-repeat; display: block; width: 1123px; height: 515px; margin: 0 auto;}
+.content-president:hover{ background: url(../img/p-content-1h.png) no-repeat; display: block; width: 1123px; height: 515px; margin: 0 auto; cursor: pointer;}
+.president-footer1{ background-color: #1E7893; width: 100%; height: 190px;}
+.president-footer-word1{ background: url(../img/p-bottom-1.png) no-repeat; display: block; width: 1123px; height: 190px;}
+
+/* president-description */
+.content-president-descrip{ background: url(../img/p-content-2.png) no-repeat; display: block; width: 1123px; height: 590px; margin: 0 auto;}
+.content-president-descrip:hover{ background: url(../img/p-content-2h.png) no-repeat; display: block; width: 1123px; height: 590px; margin: 0 auto; cursor: pointer;}
+.president-footer2{ background-color: #1E7893; width: 100%; height: 190px;}
+.president-footer-word2{ background: url(../img/p-bottom-2.png) no-repeat; display: block; width: 1123px; height: 190px;}
+
+/* environment */
+.environment-bg1{ background: url(../img/e-top-1.png) no-repeat left top; display: block; width: 1123px; height: 127px; position: relative;}
+.content-envirenment{ background: url(../img/e-content-1.png) no-repeat; display: block; width: 1265px; height: 549px; margin: 0 auto;}
+.content-envirenment:hover{ background: url(../img/e-content-1h.png) no-repeat; display: block; width: 1265px; height: 549px; margin: 0 auto; cursor: pointer;}
+.envirenment-footer-word1{ background: url(../img/e-bottom-1.png) no-repeat; display: block; width: 1123px; height: 190px;}
+
+/* environment-description */
+.environment-bg2{ background: url(../img/e-top-2.png) no-repeat left top; display: block; width: 1123px; height: 127px; position: relative;}
+.content-environment-descrip{ background: url(../img/e-content-2.png) no-repeat; display: block; width: 1265px; height: 549px; margin: 0 auto;}
+.content-environment-descrip:hover{ background: url(../img/e-content-2h.png) no-repeat; display: block; width: 1265px; height: 549px; margin: 0 auto; cursor: pointer;}
+.environment-footer2{ background-color: #1E7893; width: 100%; height: 190px;}
+.environment-footer-word2{ background: url(../img/e-bottom-2.png) no-repeat; display: block; width: 1123px; height: 190px;}
