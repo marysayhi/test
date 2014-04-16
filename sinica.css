@@ -97,3 +97,5 @@ body{ background-color: #1E7893;}
 .content-environment-descrip:hover{ background: url(../img/e-content-2h.png) no-repeat; display: block; width: 1265px; height: 549px; margin: 0 auto; cursor: pointer;}
 .environment-footer2{ background-color: #1E7893; width: 100%; height: 190px;}
 .environment-footer-word2{ background: url(../img/e-bottom-2.png) no-repeat; display: block; width: 1123px; height: 190px;}
+
+.jelly{ position: absolute; }
